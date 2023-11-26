@@ -1,0 +1,87 @@
+html, body{
+    height: 95%;
+
+}
+
+body {
+    background: rgb(140, 201, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(8, 5, 61);
+    background-color: rgb(140, 201, 237);
+    text-decoration: underline;
+    padding: 50px;
+    margin: 50px; 
+    font-size: 100px;
+    font-weight: 800;
+
+}
+
+.statistiky{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.text-container {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.text-div {
+    width: 30%;
+    height: 25%;
+    border: 2px solid black;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 8px 2px;
+    border-radius: 8px;
+    margin:  10px;
+    text-align: center;
+
+}
+
+.button-container {
+    width: 50%;
+    
+    font-size: 50px;
+
+    margin: auto;
+    background-color: rgb(140, 201, 237);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-container button {
+    width: 80%;
+    font-size: 90px;
+
+    height: 100%;
+    background-color: rgba(76, 96, 99, 0.791);
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+footer{
+    padding: 15px;
+    margin: 10px;
+}
